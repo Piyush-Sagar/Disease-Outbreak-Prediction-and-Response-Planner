@@ -1,0 +1,282 @@
+{
+  "nodes": [
+    {
+      "id": "city-chennai",
+      "name": "Chennai",
+      "latitude": 13.0827,
+      "longitude": 80.2707
+    },
+    {
+      "id": "city-kochi",
+      "name": "Kochi",
+      "latitude": 9.9312,
+      "longitude": 76.2673
+    },
+    {
+      "id": "city-mumbai",
+      "name": "Mumbai",
+      "latitude": 19.076,
+      "longitude": 72.8777
+    },
+    {
+      "id": "city-delhi",
+      "name": "Delhi",
+      "latitude": 28.7041,
+      "longitude": 77.1025
+    },
+    {
+      "id": "city-kolkata",
+      "name": "Kolkata",
+      "latitude": 22.5726,
+      "longitude": 88.3639
+    },
+    {
+      "id": "city-bengaluru",
+      "name": "Bengaluru",
+      "latitude": 12.9716,
+      "longitude": 77.5946
+    },
+    {
+      "id": "city-hyderabad",
+      "name": "Hyderabad",
+      "latitude": 17.385,
+      "longitude": 78.4867
+    },
+    {
+      "id": "city-pune",
+      "name": "Pune",
+      "latitude": 18.5204,
+      "longitude": 73.8567
+    },
+    {
+      "id": "city-jaipur",
+      "name": "Jaipur",
+      "latitude": 26.9124,
+      "longitude": 75.7873
+    },
+    {
+      "id": "city-lucknow",
+      "name": "Lucknow",
+      "latitude": 26.8467,
+      "longitude": 80.9462
+    },
+    {
+      "id": "city-varanasi",
+      "name": "Varanasi",
+      "latitude": 25.3176,
+      "longitude": 83.0064
+    },
+    {
+      "id": "city-guwahati",
+      "name": "Guwahati",
+      "latitude": 26.1445,
+      "longitude": 91.7362
+    },
+    {
+      "id": "J-Chennai-Hyderabad",
+      "name": "Junction NH44-CH",
+      "latitude": 14.5,
+      "longitude": 78.9
+    },
+    {
+      "id": "J-Mumbai-Pune",
+      "name": "Junction Mumbai-Pune",
+      "latitude": 19.0,
+      "longitude": 73.5
+    },
+    {
+      "id": "J-Delhi-Lucknow",
+      "name": "Junction NH44-DL",
+      "latitude": 27.8,
+      "longitude": 78.5
+    },
+    {
+      "id": "J-Kolkata-Varanasi",
+      "name": "Junction NH2-KV",
+      "latitude": 24.5,
+      "longitude": 85.5
+    },
+    {
+      "id": "J-Pune-Hyderabad",
+      "name": "Junction Pune-Hyd",
+      "latitude": 17.8,
+      "longitude": 76.0
+    },
+    {
+      "id": "J-Mumbai-Nashik",
+      "name": "Junction MH-NH",
+      "latitude": 20.0,
+      "longitude": 73.8
+    },
+    {
+      "id": "J-Delhi-Jaipur",
+      "name": "Junction NH48-DJ",
+      "latitude": 27.9,
+      "longitude": 76.2
+    }
+  ],
+  "edges": [
+    {
+      "from": "city-chennai",
+      "to": "J-Chennai-Hyderabad",
+      "distance_km": 195,
+      "travel_time_min": 180
+    },
+    {
+      "from": "J-Chennai-Hyderabad",
+      "to": "city-hyderabad",
+      "distance_km": 520,
+      "travel_time_min": 450
+    },
+    {
+      "from": "city-chennai",
+      "to": "city-bengaluru",
+      "distance_km": 340,
+      "travel_time_min": 300
+    },
+    {
+      "from": "city-bengaluru",
+      "to": "J-Pune-Hyderabad",
+      "distance_km": 460,
+      "travel_time_min": 390
+    },
+    {
+      "from": "J-Pune-Hyderabad",
+      "to": "city-pune",
+      "distance_km": 230,
+      "travel_time_min": 190
+    },
+    {
+      "from": "J-Pune-Hyderabad",
+      "to": "city-hyderabad",
+      "distance_km": 150,
+      "travel_time_min": 130
+    },
+    {
+      "from": "city-mumbai",
+      "to": "J-Mumbai-Pune",
+      "distance_km": 120,
+      "travel_time_min": 100
+    },
+    {
+      "from": "J-Mumbai-Pune",
+      "to": "city-pune",
+      "distance_km": 65,
+      "travel_time_min": 50
+    },
+    {
+      "from": "city-mumbai",
+      "to": "J-Mumbai-Nashik",
+      "distance_km": 165,
+      "travel_time_min": 140
+    },
+    {
+      "from": "J-Mumbai-Nashik",
+      "to": "city-pune",
+      "distance_km": 200,
+      "travel_time_min": 170
+    },
+    {
+      "from": "city-mumbai",
+      "to": "city-kolkata",
+      "distance_km": 1900,
+      "travel_time_min": 1500
+    },
+    {
+      "from": "city-mumbai",
+      "to": "city-jaipur",
+      "distance_km": 950,
+      "travel_time_min": 810
+    },
+    {
+      "from": "city-mumbai",
+      "to": "city-delhi",
+      "distance_km": 1400,
+      "travel_time_min": 1180
+    },
+    {
+      "from": "city-delhi",
+      "to": "J-Delhi-Lucknow",
+      "distance_km": 490,
+      "travel_time_min": 420
+    },
+    {
+      "from": "J-Delhi-Lucknow",
+      "to": "city-lucknow",
+      "distance_km": 120,
+      "travel_time_min": 100
+    },
+    {
+      "from": "city-delhi",
+      "to": "J-Delhi-Jaipur",
+      "distance_km": 270,
+      "travel_time_min": 230
+    },
+    {
+      "from": "J-Delhi-Jaipur",
+      "to": "city-jaipur",
+      "distance_km": 180,
+      "travel_time_min": 150
+    },
+    {
+      "from": "city-delhi",
+      "to": "city-varanasi",
+      "distance_km": 820,
+      "travel_time_min": 700
+    },
+    {
+      "from": "city-kolkata",
+      "to": "J-Kolkata-Varanasi",
+      "distance_km": 640,
+      "travel_time_min": 540
+    },
+    {
+      "from": "J-Kolkata-Varanasi",
+      "to": "city-varanasi",
+      "distance_km": 220,
+      "travel_time_min": 185
+    },
+    {
+      "from": "city-kolkata",
+      "to": "city-guwahati",
+      "distance_km": 1000,
+      "travel_time_min": 850
+    },
+    {
+      "from": "city-kolkata",
+      "to": "city-lucknow",
+      "distance_km": 980,
+      "travel_time_min": 830
+    },
+    {
+      "from": "city-lucknow",
+      "to": "city-varanasi",
+      "distance_km": 310,
+      "travel_time_min": 270
+    },
+    {
+      "from": "city-guwahati",
+      "to": "city-varanasi",
+      "distance_km": 830,
+      "travel_time_min": 700
+    },
+    {
+      "from": "city-kochi",
+      "to": "city-bengaluru",
+      "distance_km": 520,
+      "travel_time_min": 450
+    },
+    {
+      "from": "city-kochi",
+      "to": "city-chennai",
+      "distance_km": 700,
+      "travel_time_min": 600
+    },
+    {
+      "from": "city-bengaluru",
+      "to": "city-hyderabad",
+      "distance_km": 570,
+      "travel_time_min": 490
+    }
+  ]
+}
