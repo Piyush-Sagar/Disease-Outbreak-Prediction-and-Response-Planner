@@ -1,0 +1,19 @@
+{
+  "name": "disease-outbreak-prediction-response-planner",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-Based Disease Outbreak Prediction and Response Planner (academic prototype)",
+  "scripts": {
+    "dev": "concurrently -n API,WEB -c cyan,magenta \"npm:dev:backend\" \"npm:dev:frontend\"",
+    "dev:backend": "cd backend && python run.py",
+    "dev:frontend": "cd frontend && npm run dev",
+    "train": "python ml/train.py",
+    "test:backend": "cd backend && python -m pytest tests -q",
+    "test:frontend": "cd frontend && npm run typecheck",
+    "build": "cd frontend && npm run build",
+    "seed": "cd backend && python -c \"from app import database; print(database.seed_database())\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
