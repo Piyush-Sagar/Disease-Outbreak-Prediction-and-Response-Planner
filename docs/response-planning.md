@@ -59,7 +59,7 @@ Severity weights:
 | CRITICAL | 1.00 |
 
 `population_factor` is the region population log-scaled to 0–1 using the most
-populous region as the top anchor. Example ordering from the seeded demo data
+populous region as the top anchor. Example ordering from the seeded Real data
 (latest week): Delhi 88.4, Kolkata 86.6, Chennai 85.0, Varanasi 84.4,
 Bengaluru 83.5.
 

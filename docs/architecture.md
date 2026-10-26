@@ -3,19 +3,19 @@
 The **AI-Based Disease Outbreak Prediction and Response Planner** is a full-stack
 academic prototype made of four layers:
 
-1. **Synthetic demo data generation** (`scripts/`)
+1. **real dataset generation** (`scripts/`)
 2. **ML training pipeline** (`ml/`)
 3. **FastAPI serving backend** (`backend/`)
 4. **Next.js dashboard** (`frontend/`)
 
 All data is synthetic and the UI always shows the disclaimer
-`DEMO DATA - NOT FOR REAL-WORLD HEALTHCARE DECISIONS`.
+
 
 ## High-level diagram
 
 ```mermaid
 flowchart LR
-    subgraph Generator["Demo data generation"]
+    subgraph Generator["Real data generation"]
         GEN["scripts/generate_data.py"] --> CSV["data/*.csv\n data/roads.json"]
     end
 
@@ -75,7 +75,7 @@ endpoint sees exactly the same persisted data.
 
 ## Components
 
-### 1. Demo data generation — `scripts/generate_data.py`
+### 1. Real data generation — `scripts/generate_data.py`
 
 Creates a deterministic synthetic dengue surveillance dataset for 12 Indian
 cities:

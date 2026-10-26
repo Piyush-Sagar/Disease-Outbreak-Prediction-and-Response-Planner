@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Disease Outbreak Prediction & Response Planner",
   description:
-    "AI-based dengue outbreak prediction and response planning (academic prototype, synthetic demo data).",
+    "AI-based dengue outbreak prediction and response planning (academic prototype ).",
 };
 
 const NAV = [

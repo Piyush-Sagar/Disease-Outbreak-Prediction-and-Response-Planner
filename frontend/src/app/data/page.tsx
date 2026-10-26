@@ -26,7 +26,7 @@ export default function DataPage() {
       <div className="flex items-start justify-between">
         <div>
           <h1 className="text-xl font-bold text-slate-900">Dataset</h1>
-          <p className="text-sm text-slate-500">Synthetic {d.disease} surveillance dataset for the demo.</p>
+          <p className="text-sm text-slate-500"> {d.disease} surveillance dataset.</p>
         </div>
         <DisclaimerBadge />
       </div>
@@ -51,7 +51,7 @@ export default function DataPage() {
           </ul>
         </Card>
         <Card>
-          <p className="mb-2 text-xs font-semibold text-slate-600">Synthetic data notice</p>
+          <p className="mb-2 text-xs font-semibold text-slate-600">dataset notice</p>
           <p className="text-xs leading-relaxed text-amber-700">{d.synthetic_notice}</p>
         </Card>
       </div>

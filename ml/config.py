@@ -25,8 +25,6 @@ FIGURES_DIR = os.environ.get(
     "ML_FIGURES_DIR", os.path.join(REPO_ROOT, "ml", "figures")
 )
 
-DEMO_DATA_DISCLAIMER = "DEMO DATA - NOT FOR REAL-WORLD HEALTHCARE DECISIONS"
-
 DISEASE = "Dengue"
 
 

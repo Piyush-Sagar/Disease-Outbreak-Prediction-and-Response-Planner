@@ -3,8 +3,6 @@
 Schema + idempotent seed from the generated demo CSVs (`data/*.csv`).
 
 SQLite is used via the standard library to keep the demo dependency-light.
-All write helpers are tiny upsert-style statements so re-running the server
-never duplicates demo data.
 """
 
 import csv

@@ -28,7 +28,6 @@ class PredictionRecord:
 
 
 class ModelService:
-    """Cached wrapper over the saved predictor and demo dataset."""
 
     def __init__(self, artifacts_dir: str | None = None):
         self.predictor = OutbreakPredictor(artifacts_dir or config.MODEL_ARTIFACTS_DIR)

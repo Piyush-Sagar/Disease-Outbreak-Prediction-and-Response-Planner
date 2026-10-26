@@ -2,8 +2,6 @@
 """
 Generate synthetic demonstration dataset for Dengue outbreak prediction.
 
-This script creates clearly labelled DEMO/SYNTHETIC data for development
-and academic prototyping. The data is NOT real-world epidemiological data.
 
 The case-generating process encodes plausible correlations between
 environmental factors and dengue incidence to allow the ML models

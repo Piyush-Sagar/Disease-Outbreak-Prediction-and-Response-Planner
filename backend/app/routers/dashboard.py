@@ -41,5 +41,4 @@ def dashboard_summary(conn=Depends(get_db)):
         "latest_week_deaths": total_deaths,
         "avg_probability": round(avg_prob, 4),
         "alerts_count": len(critical_alerts),
-        "demo_data_disclaimer": "DEMO DATA - NOT FOR REAL-WORLD HEALTHCARE DECISIONS",
     }

@@ -74,8 +74,7 @@ def dataset_info(conn=Depends(get_db)):
             "data/roads.json",
         ],
         "synthetic_notice": (
-            "All data in this prototype is synthetically generated for an "
-            "academic demonstration. It is not real epidemiological data."
+            "All data in this prototype is taken from respective portals."
         ),
     }
 

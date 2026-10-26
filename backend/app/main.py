@@ -20,7 +20,6 @@ app = FastAPI(
     description=(
         "Academic prototype: predicts high-incidence dengue events one week in "
         "advance, assesses severity, ranks regions, and plans responses. All "
-        "data is synthetic demo data."
     ),
     version="1.0.0",
 )

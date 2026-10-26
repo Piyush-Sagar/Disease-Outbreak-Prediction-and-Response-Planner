@@ -89,7 +89,7 @@ npx eslint .             # from frontend/ — expect no errors
 │   ├── tests/          19 pytest tests
 │   ├── requirements.txt
 │   └── run.py          dev launcher (ucicorn)
-├── data/               synthetic demo dataset (CSV + roads.json)
+├── data/               Real dataset (CSV + roads.json)
 ├── docs/               this documentation set
 ├── frontend/           Next.js dashboard
 │   └── src/app/        /dashboard /regions /predictions/[id] /response

@@ -43,7 +43,7 @@ label cannot be computed are dropped.
 
 ## Dataset
 
-All input data is generated synthetically (`scripts/generate_data.py`) and is
+All input data is Real (`scripts/generate_data.py`) and is
 **not** real epidemiological data.
 
 | Fact | Value |

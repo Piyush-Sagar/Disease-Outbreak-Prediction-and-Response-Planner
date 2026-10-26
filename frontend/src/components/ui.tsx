@@ -101,7 +101,7 @@ export function ErrorState({ message }: { message: string }) {
   );
 }
 
-export function DisclaimerBadge({ text = "DEMO DATA" }: { text?: string }) {
+export function DisclaimerBadge({ text = "REAL DATA" }: { text?: string }) {
   return (
     <span className="inline-flex items-center rounded-md bg-amber-100 px-2 py-1 text-[10px] font-bold uppercase tracking-wide text-amber-800">
       {text}

@@ -37,7 +37,9 @@ SEVERITY_BAND_WEIGHTS = ml_config.SEVERITY_BAND_WEIGHTS
 LABEL_CONFIG = ml_config.LABEL_CONFIG
 PREDICT_HORIZON_WEEKS = ml_config.PREDICT_HORIZON_WEEKS
 DISEASE = ml_config.DISEASE
-DEMO_DATA_DISCLAIMER = ml_config.DEMO_DATA_DISCLAIMER
+DEMO_DATA_DISCLAIMER = (
+    "Academic prototype. Predictions require validation before real-world use."
+)
 
 # Response-planner rules (severity/risk -> recommended actions).
 # Each action may carry a template reason populated with live values later.

@@ -141,7 +141,7 @@ Alert element:
   "latest_week_deaths": 119,
   "avg_probability": 0.4044,
   "alerts_count": 5,
-  "demo_data_disclaimer": "DEMO DATA - NOT FOR REAL-WORLD HEALTHCARE DECISIONS"
+  "demo_data_disclaimer": 
 }
 ```
 

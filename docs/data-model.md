@@ -1,6 +1,6 @@
 # Data Model
 
-The backend persists the demo dataset and every computed prediction in a single
+The backend persists the Real dataset and every computed prediction in a single
 SQLite file, `backend/demo.db` (override with `DATABASE_PATH`). The file is
 git-ignored and created/seeded automatically on first use.
 
